@@ -2,8 +2,8 @@ import { Helmet } from "react-helmet";
 
 import "./../styles/works.css";
 
-import rikkyUb from "./../img/works_page/rikkyUB.jpg";
-import tgProject from "./../img/works_page/telegram_dark_mode.png";
+import site1 from "./../img/works_page/site1.jpg";
+import site2 from "./../img/works_page/site2.jpg"
 
 const Works = () => {
     return (
@@ -17,16 +17,15 @@ const Works = () => {
                     <div class="dev__title">⌨️ Development</div>
                     <div class="dev__cards">
                         <div class="dev__card1">
-                            <a target="_blank" rel="noreferrer" href="https://github.com/BeanDx/RikkyUserBot">
-                                <img src={rikkyUb} alt={rikkyUb} />
-                                <p>Rikkyuserbot is your interactive
-                                    multi-functional assistant in Telegram.</p>
+                            <a target="_blank" rel="noreferrer" href="https://beandx.github.io/site1/">
+                                <img src={site1} alt="site1" />
+                                <p>My first site. 01/31/2023</p>
                             </a>
                         </div>
                         <div class="dev__card2">
                             <a target="_blank" rel="noreferrer" href="https://teletype.in/@beand/TelegramRat">
-                                <img src={tgProject} alt={tgProject} />
-                                <p>Computer Rat in a Telegram Bot</p>
+                                <img src={site2} alt="site2" />
+                                <p>Second site. 01/10/2023</p>
                             </a>
                         </div>
                     </div>

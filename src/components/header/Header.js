@@ -19,19 +19,19 @@ const Header = () => {
                 <nav className="menu">
                     <ul className="menu__list">
                         <li className="menu__item">
-                        <NavLink to="/stack">Stack</NavLink>
+                            <NavLink to="/stack">Stack</NavLink>
                         </li>
                         <li className="menu__item">
-                        <NavLink to="/works">Works</NavLink>
+                            <NavLink to="/works">Works</NavLink>
                         </li>
                         <li className="menu__item">
-                        <NavLink to="/workspace">Workspace</NavLink>
+                            <NavLink to="/workspace">Workspace</NavLink>
                         </li>
                     </ul>
                 </nav>
-                <a className="themetoggle" href="!#">
+                <button type="button" className="themetoggle">
                     <span className="material-icons">wb_sunny</span>
-                </a>
+                </button>
             </div>
         </header>
     );

@@ -22,6 +22,7 @@ const Stack = () => {
                         <ul class="tech-stack__items">
                             <li class="tech-stack__item">HTML / CSS</li>
                             <li class="tech-stack__item">JavaScript</li>
+                            <li class="tech-stack__item">React.js - 10% (This site write on React :)</li>
                             <li class="tech-stack__item">Prettier / ESLint</li>
                             <li class="tech-stack__item">Markdown</li>
                             <li class="tech-stack__item">Sass / BEM</li>
