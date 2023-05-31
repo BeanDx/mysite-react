@@ -23,7 +23,7 @@ const Works = () => {
                             </a>
                         </div>
                         <div class="dev__card2">
-                            <a target="_blank" rel="noreferrer" href="https://teletype.in/@beand/TelegramRat">
+                            <a target="_blank" rel="noreferrer" href="https://beandx.github.io/site2/">
                                 <img src={site2} alt="site2" />
                                 <p>Second site. 01/10/2023</p>
                             </a>
